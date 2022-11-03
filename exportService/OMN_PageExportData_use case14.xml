@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<admediumLanguageExport>
+    <admediumLanguage languageFpIf="languageFpID">
+        <admediumPageLink pageLinkId="id10000"  realPageNum="realPageNum10000">
+            <pageAttribute printLanguageId="D" name="Basic Pullover" value=""/>
+            <pageAttribute printLanguageId="D" name="Basic Pullover" value=""/>
+            <pageAttribute printLanguageId="D" name="Basic Pullover" value=""/>
+        </admediumPageLink>
+    </admediumLanguage>
+</admediumLanguageExport>
+
+        <!--The record is exported following the logic:-->
+        <!-- -	if the changeOperation is “delete” (which is not expected for Projects), then throw an exception as it is not expected.-->
+        <!-- -	if the changeOperation is “create” or “update”, then check the entity type:-->
+        <!-- -	for “project”:-->
+        <!-- -	retrieve the sub projects using /projects/{id}/childrenProjectLinks.-->
+        <!-- -	for each child project link, retrieve its attributes by calling /projects/{id}-->
+        <!-- -	cache is not needed as the projects will be used during export only once.-->
+        <!-- -	write the following data fields into the output xml file for PEOs:-->
+        <!-- -	Child Project.FP Id-->
+        <!-- -	Child Project.Real Page number-->
+        <!-- -	for other type see other use case.-->

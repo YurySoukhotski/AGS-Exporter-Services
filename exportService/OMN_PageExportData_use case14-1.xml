@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<admediumLanguageExport>
+    <admediumLanguage languageFpIf="languageFpIDForDE">
+        <admediumPageLink pageLinkId="id10000" workingPageNumber="wrkPageNum10000" realPageNum="realPageNum10000"/>
+        <admediumPageLink pageLinkId="id10000" workingPageNumber="wrkPageNum10000" realPageNum="realPageNum10000"/>
+        <admediumPageLink pageLinkId="id10000" workingPageNumber="wrkPageNum10000" realPageNum="realPageNum10000"/>
+        <admediumPageLink pageLinkId="id10000" workingPageNumber="wrkPageNum10000" realPageNum="realPageNum10000"/>
+        <admediumPageLink pageLinkId="id10000" workingPageNumber="wrkPageNum10000" realPageNum="realPageNum10000"/>
+    </admediumLanguage>
+
+    <admediumLanguage languageFpIf="languageFpIDForDE2">
+        <admediumPageLink pageLinkId="id10000" workingPageNumber="wrkPageNum10000" realPageNum="realPageNum10000"/>
+        <admediumPageLink pageLinkId="id10000" workingPageNumber="wrkPageNum10000" realPageNum="realPageNum10000"/>
+        <admediumPageLink pageLinkId="id10000" workingPageNumber="wrkPageNum10000" realPageNum="realPageNum10000"/>
+        <admediumPageLink pageLinkId="id10000" workingPageNumber="wrkPageNum10000" realPageNum="realPageNum10000"/>
+        <admediumPageLink pageLinkId="id10000" workingPageNumber="wrkPageNum10000" realPageNum="realPageNum10000"/>
+    </admediumLanguage>
+</admediumLanguageExport>
+
+
+
+        <!--	FP Id-->
+        <!--	Working page number-->
+        <!--	Actual page number (Real page number or also called pagina)-->
+

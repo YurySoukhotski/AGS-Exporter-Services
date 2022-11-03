@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<omnPlacementExport>
+    <placement placementTechId="placementId1">
+        <placementProjectLink projectTechId="projectId1">
+            <pageAttribute printLanguageId="D" name="Basic Pullover" value=""/>
+            <pageAttribute printLanguageId="D" name="Basic Pullover" value=""/>
+            <pageAttribute printLanguageId="D" name="Basic Pullover" value=""/>
+        </placementProjectLink>
+        <placementProjectLink projectTechId="projectId2">
+            <pageAttribute printLanguageId="D" name="Basic Pullover" value=""/>
+            <pageAttribute printLanguageId="D" name="Basic Pullover" value=""/>
+            <pageAttribute printLanguageId="D" name="Basic Pullover" value=""/>
+        </placementProjectLink>
+    </placement>
+    <placementDeleted placementTechId="placementId"/>
+</omnPlacementExport>

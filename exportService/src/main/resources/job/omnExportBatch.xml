@@ -1,0 +1,31 @@
+<beans:beans xmlns="http://www.springframework.org/schema/batch"
+			 xmlns:beans="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			 xsi:schemaLocation="
+	http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans.xsd
+	http://www.springframework.org/schema/batch
+	http://www.springframework.org/schema/batch/spring-batch-3.0.xsd">
+
+	<job id="exportPageFromOmn" restartable="true">
+		<step id="exportPage">
+			<tasklet start-limit="5">
+				<chunk reader="pageReader" processor="pageProcessor" writer="pageWriter" commit-interval="1"/>
+				<listeners>
+					<listener ref="stepListener"/>
+				</listeners>
+			</tasklet>
+		</step>
+	</job>
+
+	<job id="exportPeoFromOmn" restartable="true">
+		<step id="exportPeo">
+			<tasklet start-limit="5">
+				<chunk reader="peoReader" processor="peoProcessor" writer="peoWriter" commit-interval="1"/>
+				<listeners>
+					<listener ref="stepListener"/>
+				</listeners>
+			</tasklet>
+		</step>
+	</job>
+
+</beans:beans>

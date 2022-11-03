@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<admediumPageExport>
+    <admediumPage pageTechId="id10000" pageKey="pagekey10000" workPageNum="pageNum10000" workPageLabel="label10000" admediumVersionId="10000" isMaster="true"/>
+    <admediumPage pageTechId="id10001" pageKey="pagekey10001" workPageNum="pageNum10001" workPageLabel="label10001" admediumVersionId="10001" isMaster="true"/>
+    <admediumPage pageTechId="id10002" pageKey="pagekey10002" workPageNum="pageNum10002" workPageLabel="label10002" admediumVersionId="10002" isMaster="true"/>
+    <admediumPage pageTechId="id10003" pageKey="pagekey10003" workPageNum="pageNum10003" workPageLabel="label10003" admediumVersionId="10003" isMaster="true"/>
+    <admediumPageDeleted pageTechId="pageId10"/>
+</admediumPageExport>
